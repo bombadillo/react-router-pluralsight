@@ -1,5 +1,7 @@
 import React from 'react';
 
+import iconStyles from '../../styles/icons.css';
+
 export default class About extends React.Component {
 
     render() {
@@ -10,8 +12,8 @@ export default class About extends React.Component {
                     <div className="column col-3 text-center centered">
 
                         <div className="empty">
-                            <div className="empty-icon">
-                            <i className="icon icon-people"></i>
+                            <div className={'empty-icon ' + iconStyles.icon}>
+                            <i className="icon icon-mail"></i>
                             </div>
                             <h4 className="empty-title">You have no new messages</h4>
                             <p className="empty-subtitle">Click the button to start a conversation.</p>
