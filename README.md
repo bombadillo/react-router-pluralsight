@@ -1,6 +1,6 @@
-# react-hello-world
+# react-router-pluralsight
 
-Sample app exploring the [React JS](https://github.com/facebook/react) library.
+Sample app exploring the [React JS](https://github.com/facebook/react) library with [React Router](https://github.com/ReactTraining/react-router).
 
 # Requirements
 
